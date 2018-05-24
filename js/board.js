@@ -1,6 +1,7 @@
+let board = [];
 let Board = function (columns, rows) {
 
-    let board = [];
+    // let board = [];
 
     for (let y = 0; y < rows; y++) {
         let row = [];
@@ -14,4 +15,5 @@ let Board = function (columns, rows) {
     }
 }
 
-console.table(Board(9, 9));
+Board(9, 9);
+console.table(board);
