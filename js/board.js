@@ -10,7 +10,6 @@ let Board = function (columns, rows) {
             let tile = new Tile(x, y);
             row.push(tile);
         }
-
         board.push(row);
     }
 }
